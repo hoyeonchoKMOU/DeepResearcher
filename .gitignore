@@ -1,0 +1,150 @@
+# ===========================================
+# Python
+# ===========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.pyo
+*.pyd
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ===========================================
+# IDE and Editors
+# ===========================================
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# ===========================================
+# Environment Variables (SENSITIVE)
+# ===========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ===========================================
+# Authentication & Security (SENSITIVE)
+# ===========================================
+auth.json
+*.token
+*.pem
+*.key
+*.crt
+credentials.json
+service_account.json
+
+# Security credentials folder (NEVER commit)
+data/security/
+!data/security.example/
+
+# ===========================================
+# Logs
+# ===========================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================================
+# Database
+# ===========================================
+*.db
+*.sqlite3
+*.sqlite
+
+# ===========================================
+# Testing
+# ===========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===========================================
+# Node.js / Frontend
+# ===========================================
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+.npm/
+.yarn/
+
+# ===========================================
+# OS Files
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===========================================
+# Distribution Packages
+# ===========================================
+dist/
+*.zip
+*.tar.gz
+*.sha256
+
+# ===========================================
+# Project Data (User-generated)
+# ===========================================
+data/projects/
+data/papers/
+papers/
+summaries/
+projects/
+
+# ===========================================
+# Temporary Files
+# ===========================================
+*.tmp
+*.temp
+temp/
+tmp/
+*.bak
+*.backup
+tmpclaude-*

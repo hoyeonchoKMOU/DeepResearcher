@@ -1,0 +1,5 @@
+{
+  "client_id": "your-google-client-id.apps.googleusercontent.com",
+  "client_secret": "your-google-client-secret",
+  "project_id": "your-gcp-project-id"
+}
